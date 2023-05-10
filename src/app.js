@@ -10,7 +10,7 @@ dotenv.config();
 import {notFound, errorHandler} from "./middlewares/middlewares.js";
 import api from "./routes/api.js";
 import apiv2 from "./routes/apiv2.js";
-import apiv3 from "./routes/apiv3.js";
+//import apiv3 from "./routes/apiv3.js";
 import swaggerdocs from "./docs/index.js"
 
 // ALLOW UNLIMITED RATE LIMIT ON AMVSTRM and LOCALHOST
